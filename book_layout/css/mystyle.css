@@ -1,6 +1,7 @@
 body{
-    overflow:hidden;
+    overflow: hidden;
     width: 100%;
+    /*height: 90%;*/
 
 }
     /* Landscape*/
@@ -10,10 +11,23 @@ body{
 
 }
 
+.bottom-menu{
+    bottom: 0;
+    background-color: red;
+    z-index: 3;
+    height: 100px;
+}
+
+#bottom-picture{
+  color: black;
+}
+
 #flipbook{
     width:1400px;
     height:900px;
     position:center;
+
+
 }
 
 #flipbook .page{
@@ -24,6 +38,7 @@ body{
     font-size:20px;
     text-align:center;
     position: Center;
+    z-index: 1;
 
 }
 
